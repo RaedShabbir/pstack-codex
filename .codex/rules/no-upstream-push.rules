@@ -1,0 +1,1 @@
+prefix_rule(pattern = ["git", "push", "upstream"], decision = "forbidden", justification = "Push to origin; upstream is read-only for this repository.")

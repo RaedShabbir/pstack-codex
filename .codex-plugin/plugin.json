@@ -1,0 +1,33 @@
+{
+  "name": "pstack",
+  "version": "0.14.5+codex.20260901155155",
+  "description": "A port of Lauren Tan's pstack skills for seamless use in Codex. The original Cursor skill files remain unchanged.",
+  "author": {
+    "name": "pstack-codex contributors"
+  },
+  "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+  "repository": "https://github.com/RaedShabbir/pstack-codex",
+  "license": "MIT",
+  "keywords": [
+    "pstack",
+    "codex",
+    "poteto-mode",
+    "workflow",
+    "principles",
+    "agent-style",
+    "subagents",
+    "unslop"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "pstack-codex",
+    "shortDescription": "Lauren Tan's pstack skills, ported for Codex.",
+    "longDescription": "Ports Lauren Tan's original Cursor pstack skills to Codex without changing the upstream instructions.",
+    "developerName": "pstack-codex contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Instructions"
+    ],
+    "defaultPrompt": "$pstack:poteto-mode"
+  }
+}

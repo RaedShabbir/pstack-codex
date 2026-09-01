@@ -1,0 +1,5 @@
+interface:
+  display_name: "principle-sequence-verifiable-units"
+  short_description: "Explicit upstream pstack skill"
+policy:
+  allow_implicit_invocation: false
